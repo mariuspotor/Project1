@@ -1,0 +1,75 @@
+#main {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.squares {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.red {
+    transition: transform 1s linear;
+}
+
+.green {
+    transition: transform 1s linear;
+}
+
+.blue {
+    transition: transform 1s linear;
+}
+
+
+.scrollDown {
+    /*margin-top: calc(40% - 200px);
+    transform: translate(0,100%);*/
+}
+
+.scrollUp {
+    /*margin-top: 0;
+    transform: translate(0,0);*/
+}
+
+.scrollLDown {
+    /*transform: translate(0,100%);*/
+}
+
+.scrollLUp {
+    /*transform: translate(0,0);*/
+}
+
+
+.scrollOblicDown {
+    /*transform: translate(520px,520px);*/
+}
+
+.scrollOblicUp {
+    /*transform: translate(0,0);*/
+}
+
+#p2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+
+#p4 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+
+#p6 {
+    width: 0;
+    height: 0;
+    border-top: 244px solid blue;
+    border-left: 244px solid transparent;
+}
