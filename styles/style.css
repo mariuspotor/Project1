@@ -5,6 +5,7 @@
 }
 
 .squares {
+    display: block;
     position: relative;
     width: 200px;
     height: 200px;
@@ -53,21 +54,21 @@
     /*transform: translate(0,0);*/
 }
 
-#p2 {
+.p2 {
     width: 200px;
     height: 200px;
     background-color: red;
 }
 
 
-#p4 {
+.p4 {
     width: 200px;
     height: 200px;
     background-color: white;
 }
 
 
-#p6 {
+.p6 {
     width: 0;
     height: 0;
     border-top: 244px solid blue;
